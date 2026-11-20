@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    padding: 20px;
+    font-family:'Lucida Handwriting', 'cursive';
+
+    background-color: #F7F4EA;
+}
+
+/* header part */
+.header{
+    background: #F7F4EA;
+    color: #333;
+    padding: 20px;
+    border-radius:10px;
+    color: #2d5f6f;
+
+    background-image:url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+.nav{
+    background: #F7F4EA;
+    padding: 20px;
+    border-radius:10px;
+}
+.nav a {
+padding: 12px 20px;
+text-decoration: none;
+
+color: #2d5f6f;
+transition: opacity 0.3s ease;
+}
+.nav a:hover {
+opacity: 0.8;
+
+}
+
+/*blog*/
+.content{
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 0px 35px;
+}
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+.blogimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.card_1 {
+  background-color: #e8e1cc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+
+    background-image:url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+.card_2 {
+  background-color: #e8e1cc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+
+    background-image:url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}

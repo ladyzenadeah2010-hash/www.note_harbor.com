@@ -1,0 +1,101 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    padding: 20px;
+    font-family:'Lucida Handwriting', 'cursive';
+
+    background-color: #F7F4EA;
+}
+
+/* header part */
+.header{
+    background: #F7F4EA;
+    color: #333;
+    padding: 20px;
+    border-radius:10px;
+    color: #2d5f6f;
+
+    background-image:url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+.nav{
+    background: #F7F4EA;
+    padding: 20px;
+    border-radius:10px;
+}
+.nav a {
+padding: 12px 20px;
+text-decoration: none;
+
+color: #2d5f6f;
+transition: opacity 0.3s ease;
+}
+.nav a:hover {
+opacity: 0.8;
+
+}
+
+/* main content */
+.performance_content{
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 0px 35px;
+}
+.upcoming_header{
+    text-align:center;
+    padding:65px 20px 100px;
+
+    background-image:url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+    background-attachment: fixed;
+}
+.upcoming_header h2{
+    font-size:85px;
+    font-weight:normal;
+    line-height:0.95;
+    margin:25px 0px;
+}
+.performance_card{
+    grid-template-columns: repeat(2, 1fr);
+
+    display:grid;
+    margin-top:8px;
+
+    font-size:10px;
+    letter-spacing: 1.5px;
+    text-decoration:none;
+    border-bottom: 1px solid #2d5f6f;
+    padding-bottom:4px;
+
+    transition: opacity 0.3s ease;
+}
+.performance_card img{
+    width:200px;
+    height:140px;
+    object-fit:cover;
+    display:block;
+
+    border-radius: 10px;
+}
+.performance_card h3{
+    font-size:23px;
+    font-weight:normal;
+    letter-spacing:2 px;
+    margin:12px 0px;
+
+    color:#2d5f6f;
+}
+@media (max-width: 700px) {
+    .performance_grid {
+        grid-template-columns: 1fr;
+    }
+}

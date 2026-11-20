@@ -1,0 +1,109 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    padding: 20px;
+    font-family:'Lucida Handwriting', 'cursive';
+
+    background-color: #F7F4EA;
+}
+
+/* header part */
+.header{
+    background: #F7F4EA;
+    color: #333;
+    padding: 20px;
+    border-radius:10px;
+    color: #2d5f6f;
+
+    background-image:url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+.nav{
+    background: #F7F4EA;
+    padding: 20px;
+    border-radius:10px;
+}
+.nav a {
+padding: 12px 20px;
+text-decoration: none;
+
+color: #2d5f6f;
+transition: opacity 0.3s ease;
+}
+.nav a:hover {
+opacity: 0.8;
+
+}
+/* artist grid */
+.artist_section{
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 0px 35px;
+}
+
+.artist_grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.artist_card{
+    min-width:0px;
+}
+
+.artist_card img{
+    width:100%;
+    height: 330px;
+    border-radius:10px;
+
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.artist_card img:hover{
+    opacity: 0.8;
+}
+
+.category{
+    font-size:10px;
+    letter-spacing: 2px;
+    color:#2d5f6f;
+}
+
+.artist_card h3{
+    font-size:25px;
+    font-weight:normal;
+
+    margin: 0px 0px 10px;
+}
+
+.artist_bio{
+    font-size: 13px;
+    line-height: 1.7;
+    color:#2d5f6f;
+}
+
+/* links */
+.artist_card a {
+    display:inline-block;
+    margin-top:8px;
+    color:#2d5f6f;
+    font-size:10px;
+    letter-spacing: 1.5px;
+    text-decoration:none;
+    border-bottom: 1px solid #2d5f6f;
+    padding-bottom:4px;
+
+    transition: opacity 0.3s ease;
+}
+
+.artist_card a:hover{
+
+    opacity:0.8;
+}

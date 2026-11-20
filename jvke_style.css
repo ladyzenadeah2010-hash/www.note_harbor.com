@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    padding: 20px;
+    font-family:'Lucida Handwriting', 'cursive';
+
+    background-color: #F7F4EA;
+}
+
+/* header part */
+.header{
+    background: #F7F4EA;
+    color: #333;
+    padding: 20px;
+    border-radius:10px;
+    color: #2d5f6f;
+
+    background-image:url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+.nav{
+    background: #F7F4EA;
+    padding: 20px;
+    border-radius:10px;
+}
+.nav a {
+padding: 12px 20px;
+text-decoration: none;
+
+color: #2d5f6f;
+transition: opacity 0.3s ease;
+}
+.nav a:hover {
+opacity: 0.8;
+
+}
+
+/* main */
+.jvke_section{
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 0px 35px;
+}
+
+.jvke_section h3,p{
+    font-size: 13px;
+    line-height: 1.7;
+    color:#2d5f6f;
+}
+
+
+.jvke_section p a{
+    display:inline-block;
+    margin-top:8px;
+    color:#2d5f6f;
+    font-size:13px;
+    text-decoration:none;
+    border-bottom: 1px solid #2d5f6f;
+    padding-bottom:4px;
+
+    transition: opacity 0.3s ease;
+}
+.jvke_section p a:hover{
+    opacity: 0.8;
+}
+
+.jvke_section img{
+    border-radius: 10px;
+}
+
+/* links to other pages */
+.extra_links a{
+    display:inline-block;
+    margin-top:8px;
+    color:#2d5f6f;
+    font-size:13px;
+    text-decoration:none;
+    border-bottom: 1px solid #2d5f6f;
+    padding-bottom:4px;
+
+    transition: opacity 0.3s ease;
+}
+
+.extra_links a:hover{
+    opacity: 0.8;
+}
